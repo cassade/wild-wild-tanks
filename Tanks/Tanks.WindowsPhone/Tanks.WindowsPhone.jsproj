@@ -43,6 +43,8 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
   <PropertyGroup>
     <DefaultLanguage>en-US</DefaultLanguage>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -54,6 +56,7 @@
     <Content Include="images\Square71x71Logo.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.png" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="packages.config" />
     <Content Include="scripts\angular-animate.js" />
     <Content Include="scripts\angular-animate.min.js" />
@@ -82,9 +85,6 @@
     <Content Include="WinJS\js\WinJS.min.js.map" />
     <Content Include="WinJS\License.txt" />
     <Content Include="WinJS\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <SDKReference Include="Microsoft.Phone.WinJS.2.1, Version=1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Tanks.Core\Tanks.Core.csproj" />

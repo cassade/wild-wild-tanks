@@ -96,9 +96,6 @@
     <None Include="Tanks_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\Tanks.Core\Tanks.Core.csproj" />
   </ItemGroup>
   <Import Project="..\Tanks.Shared\Tanks.Shared.projitems" Label="Shared" />

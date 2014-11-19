@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="fefb4292-3236-4136-88c4-ac1526962265" Version="1.0.0.0" Publisher="CN=plotyan" />
-  <mp:PhoneIdentity PhoneProductId="fefb4292-3236-4136-88c4-ac1526962265" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="32638plotyan.WildWildTanks" Version="1.1.0.0" Publisher="CN=2B13E37B-94D0-4AD1-B33A-36FCADA4668E" />
+  <mp:PhoneIdentity PhoneProductId="988a639b-d541-4b8d-b6b8-0291382afa56" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Tanks.WindowsPhone</DisplayName>
+    <DisplayName>Wild Wild Tanks</DisplayName>
     <PublisherDisplayName>plotyan</PublisherDisplayName>
     <Logo>images\StoreLogo.png</Logo>
   </Properties>

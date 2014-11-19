@@ -1,4 +1,4 @@
-/**
+﻿/**
  * State-based routing for AngularJS
  * @version v0.2.11
  * @link http://angular-ui.github.com/
