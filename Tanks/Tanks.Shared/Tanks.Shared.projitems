@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>704f011d-86b6-4592-bb94-d0f04f4a5090</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)animations\enterContent.js" />
+    <Content Include="$(MSBuildThisFileDirectory)animations\fadeIn.js" />
+    <Content Include="$(MSBuildThisFileDirectory)controllers\game.js" />
+    <Content Include="$(MSBuildThisFileDirectory)controllers\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)css\default.css" />
+    <Content Include="$(MSBuildThisFileDirectory)default.html" />
+    <Content Include="$(MSBuildThisFileDirectory)default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)images\background.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bricks0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\enemy0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\enemy1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\enemyBullet0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\playerBullet0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\bulletExplosion7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\concrete0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\explosion7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\player0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\player1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\images\water0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)scripts\angular-winjs.js" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\levels\level1.json" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\levels\level2.json" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\levels\level3.json" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\levels\level4.json" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\levels\level5.json" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\sounds\BulletExplosion.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\sounds\Explosion.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)resources\sounds\Shoot.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)views\completed.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\fail.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\game.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\about.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\lost.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\start.html" />
+    <Content Include="$(MSBuildThisFileDirectory)views\won.html" />
+  </ItemGroup>
+</Project>

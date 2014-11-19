@@ -1,0 +1,38 @@
+﻿<div data-win-control="WinJS.UI.ViewBox">
+
+    <div id="game-container" ng-keydown="onKeyUpDown($event)" ng-keyup="onKeyUpDown($event)" tabindex="0">
+
+        <aside id="game-aside-west">
+            <button class="button" id="game-button-break" ng-click="break()">&#xE112;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-pause" ng-click="pause()" ng-disabled="isPaused">&#xE103;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-start" ng-click="start()" ng-disabled="isPaused == false">&#xE102;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-up" ng-mousedown="onKeyUpDown({ keyCode: 38, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 38, type: 'keyup' })">&#xE110;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-right" ng-mousedown="onKeyUpDown({ keyCode: 39, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 39, type: 'keyup' })">&#xE111;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-down" ng-mousedown="onKeyUpDown({ keyCode: 40, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 40, type: 'keyup' })" style="transform:scaleY(-1);">&#xE110;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-left" ng-mousedown="onKeyUpDown({ keyCode: 37, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 37, type: 'keyup' })">&#xE112;</button>
+        </aside>
+
+        <canvas id="game-canvas" width="768" height="768" ng-click="onMouseDown($event)"></canvas>
+
+        <aside id="game-aside-east">
+            <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-prevLevel" ng-click="prevLevel()" ng-disabled="game.currentLevelNumber <= 1">&#xE100;</button>
+            <div id="game-level-number"><h2>level {{game.currentLevelNumber}}</h2></div>
+            <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-nextLevel" ng-click="nextLevel()">&#xE101;</button>
+            <div id="game-players-health">
+                <win-rating ng-repeat="t in getPlayers()" class="health" ng-class="t.resourceId" max-rating="1" user-rating="t.health" disabled="true"></win-rating>
+            </div>
+            <div id="game-enemies-health">
+                <win-rating ng-repeat="t in getEnemies()" class="health" ng-class="t.resourceId" max-rating="1" user-rating="t.health" disabled="true"></win-rating>
+            </div>
+            <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-insertEnemy" ng-click="game.insertEnemy()">&#xE109;</button>
+            <img ng-show="game.state == GAME_CONSTRUCTING" id="game-image-enemy" src="/resources/images/enemy0.png" />
+            <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-removeEnemy" ng-click="game.removeEnemy()" ng-disabled="getEnemies().length == 0">&#xE108;</button>
+            <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-save" ng-click="save()" ng-disabled="getEnemies().length == 0">&#xE105;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-fire" ng-mousedown="onKeyUpDown({ keyCode: 32, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 32, type: 'keyup' })">&#xE18A;</button>
+        </aside>
+
+    </div>
+
+</div>
+
+

@@ -1,0 +1,15 @@
+﻿<div id="home-container">
+    <header id="home-header-navigation" ng-show="showBackButton()">
+        <h1><button class="win-backbutton" ng-click="back()"></button></h1>
+    </header>
+    <header id="home-header-title">
+        <h1 class="win-type-ellipsis">wild wild tanks</h1>
+    </header>
+    <section id="home-section-main">
+        <progress ng-hide="initialized || initializationError" class="win-medium"></progress>
+        <div ng-show="initialized" class="enter-content-animation" ui-view></div>
+        <div ng-show="initializationError">
+            <h2>sorry, can't start the game due to errors</h2>
+        </div>
+    </section>
+</div>

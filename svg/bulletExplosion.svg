@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+  <g id="layer1" ng-style="{ display: o.frames[0] ? 'inline' : 'none' }">
+    <circle r="2" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer2" ng-style="{ display: o.frames[1] ? 'inline' : 'none' }">
+    <circle r="4" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer3" ng-style="{ display: o.frames[2] ? 'inline' : 'none' }">
+    <circle r="6" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer4" ng-style="{ display: o.frames[3] ? 'inline' : 'none' }">
+    <circle r="8" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer5" ng-style="{ display: o.frames[4] ? 'inline' : 'none' }">
+    <circle r="10" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer6" ng-style="{ display: o.frames[5] ? 'inline' : 'none' }">
+    <circle r="12" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer7" ng-style="{ display: o.frames[6] ? 'inline' : 'none' }">
+    <circle r="14" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+  <g id="layer8" ng-style="{ display: o.frames[7] ? 'inline' : 'none' }">
+    <circle r="15" cx="16" cy="16" fill="white" stroke="yellow" stroke-width="2"></circle>
+  </g>
+</svg> 

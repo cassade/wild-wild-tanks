@@ -1,0 +1,210 @@
+﻿/* Cтили AngularJS, не добавляемые автоматически из-за использования ng-csp */
+
+[ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-animate) { 
+    display: none !important; 
+}
+
+/* Общие стили */
+
+.button {
+    border: none;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.health {
+    height: 48px;
+}
+
+.win-rating.player .win-star.win-user.win-full.win-disabled {
+    color: blue;
+}
+
+.win-rating.enemy .win-star.win-user.win-full.win-disabled {
+    color: orangered;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+}
+
+/* Стили конкретных элементов, определяют положение в макете */
+
+#contenthost {
+    height: 100%;
+    width: 100%;
+}
+
+#home-container {
+    display: -ms-grid;
+    -ms-grid-columns: 120px 1fr;
+    -ms-grid-rows: 100px 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+#home-header-title {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    -ms-grid-row-align: end;
+}
+
+#home-header-navigation {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: end;
+}
+
+#home-section-main {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+    background-image:url(/images/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y:bottom;
+}
+
+#game-container { 
+    display: -ms-grid; 
+    -ms-grid-columns: 1fr 768px 1fr; 
+    -ms-grid-rows: 1fr;
+    outline: none;
+    height: 768px; 
+    width: 1366px;
+}
+
+#game-aside-west {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 96px 96px 96px 1fr;
+    -ms-grid-rows: 4px 96px 1fr 96px 96px 96px 4px;
+}
+
+#game-aside-east {
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 96px 96px 96px 1fr;
+    -ms-grid-rows: 4px 96px auto auto 96px 96px 1fr 96px 96px 96px 4px;
+}
+
+#game-canvas {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    background-color: black;
+}
+
+#game-button-break {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+}
+
+#game-button-pause {
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+}
+
+#game-button-start {
+    -ms-grid-column: 4;
+    -ms-grid-row: 2;
+}
+
+#game-button-up {
+    -ms-grid-column: 3;
+    -ms-grid-row: 4;
+}
+
+#game-button-right {
+    -ms-grid-column: 4;
+    -ms-grid-row: 5;
+}
+
+#game-button-down {
+    -ms-grid-column: 3;
+    -ms-grid-row: 6;
+}
+
+#game-button-left {
+    -ms-grid-column: 2;
+    -ms-grid-row: 5;
+}
+
+#game-players-health {
+    -ms-grid-column: 2;
+    -ms-grid-row: 3;
+    -ms-grid-column-span: 3;
+}
+
+#game-enemies-health {
+    -ms-grid-column: 2;
+    -ms-grid-row: 4;
+    -ms-grid-column-span: 3;
+}
+
+#game-button-insertEnemy {
+    -ms-grid-column: 2;
+    -ms-grid-row: 5;
+}
+
+#game-button-removeEnemy {
+    -ms-grid-column: 4;
+    -ms-grid-row: 5;
+}
+
+#game-button-save {
+    -ms-grid-column: 2;
+    -ms-grid-row: 6;
+}
+
+#game-button-fire {
+    -ms-grid-column: 3;
+    -ms-grid-row: 9;
+}
+
+#game-button-prevLevel {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+}
+
+#game-button-nextLevel {
+    -ms-grid-column: 4;
+    -ms-grid-row: 2;
+}
+
+#game-level-number {
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: center;
+}
+
+#game-image-enemy {
+    -ms-grid-column: 3;
+    -ms-grid-row: 5;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: center;
+    height: 48px;
+    width: 48px;
+}
+
+/* Переопределение стилей для мобильных устройств (с низким разрешением экрана, но высокой плотностью пикселей) */
+
+@media screen and (max-width: 800px) {
+    #home-container {
+        -ms-grid-columns: 64px 1fr;
+        -ms-grid-rows: 100px 1fr;
+    }
+}
+
+@media screen and (min-resolution: 115dpi) {
+    #game-container .button {
+        font-size: 200%;
+    }
+}

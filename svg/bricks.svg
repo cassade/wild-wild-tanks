@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <g id="layer1" ng-style="{ display: o.frames[0] ? 'inline' : 'none' }">
+
+    <rect width="30" height="2" x="2" y="0" fill="sienna"></rect>
+    <rect width="2" height="14" x="0" y="0" fill="peru"></rect>
+    <rect width="30" height="2" x="0" y="14" fill="chocolate"></rect>
+    <rect width="2" height="14" x="30" y="2" fill="maroon"></rect>
+    <rect width="28" height="12" x="2" y="2" fill="orangered"></rect>
+
+    <rect width="30" height="2" x="34" y="0" fill="sienna"></rect>
+    <rect width="2" height="14" x="32" y="0" fill="peru"></rect>
+    <rect width="30" height="2" x="32" y="14" fill="chocolate"></rect>
+    <rect width="2" height="14" x="62" y="2" fill="maroon"></rect>
+    <rect width="28" height="12" x="34" y="2" fill="orangered"></rect>
+    
+
+    <rect width="30" height="2" x="-14" y="16" fill="sienna"></rect>
+    <rect width="2" height="14" x="-16" y="16" fill="peru"></rect>
+    <rect width="30" height="2" x="-16" y="30" fill="chocolate"></rect>
+    <rect width="2" height="14" x="14" y="18" fill="maroon"></rect>
+    <rect width="28" height="12" x="-14" y="18" fill="orangered"></rect>
+
+    <rect width="30" height="2" x="18" y="16" fill="sienna"></rect>
+    <rect width="2" height="14" x="16" y="16" fill="peru"></rect>
+    <rect width="30" height="2" x="16" y="30" fill="chocolate"></rect>
+    <rect width="2" height="14" x="46" y="18" fill="maroon"></rect>
+    <rect width="28" height="12" x="18" y="18" fill="orangered"></rect>
+
+    <rect width="30" height="2" x="50" y="16" fill="sienna"></rect>
+    <rect width="2" height="14" x="48" y="16" fill="peru"></rect>
+    <rect width="30" height="2" x="48" y="30" fill="chocolate"></rect>
+    <rect width="2" height="14" x="78" y="18" fill="maroon"></rect>
+    <rect width="28" height="12" x="50" y="18" fill="orangered"></rect>
+
+
+    <rect width="30" height="2" x="2" y="32" fill="sienna"></rect>
+    <rect width="2" height="14" x="0" y="32" fill="peru"></rect>
+    <rect width="30" height="2" x="0" y="46" fill="chocolate"></rect>
+    <rect width="2" height="14" x="30" y="34" fill="maroon"></rect>
+    <rect width="28" height="12" x="2" y="34" fill="orangered"></rect>
+
+    <rect width="30" height="2" x="34" y="32" fill="sienna"></rect>
+    <rect width="2" height="14" x="32" y="32" fill="peru"></rect>
+    <rect width="30" height="2" x="32" y="46" fill="chocolate"></rect>
+    <rect width="2" height="14" x="62" y="34" fill="maroon"></rect>
+    <rect width="28" height="12" x="34" y="34" fill="orangered"></rect>
+
+
+    <rect width="30" height="2" x="-14" y="48" fill="sienna"></rect>
+    <rect width="2" height="14" x="-16" y="48" fill="peru"></rect>
+    <rect width="30" height="2" x="-16" y="62" fill="chocolate"></rect>
+    <rect width="2" height="14" x="14" y="50" fill="maroon"></rect>
+    <rect width="28" height="12" x="-14" y="50" fill="orangered"></rect>
+
+    <rect width="30" height="2" x="18" y="48" fill="sienna"></rect>
+    <rect width="2" height="14" x="16" y="48" fill="peru"></rect>
+    <rect width="30" height="2" x="16" y="62" fill="chocolate"></rect>
+    <rect width="2" height="14" x="46" y="50" fill="maroon"></rect>
+    <rect width="28" height="12" x="18" y="50" fill="orangered"></rect>
+
+    <rect width="30" height="2" x="50" y="48" fill="sienna"></rect>
+    <rect width="2" height="14" x="48" y="48" fill="peru"></rect>
+    <rect width="30" height="2" x="48" y="62" fill="chocolate"></rect>
+    <rect width="2" height="14" x="78" y="50" fill="maroon"></rect>
+    <rect width="28" height="12" x="50" y="50" fill="orangered"></rect>
+
+  </g>
+</svg>

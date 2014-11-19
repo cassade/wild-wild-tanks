@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <g id="layer1" ng-style="{ display: o.frames[0] ? 'inline' : 'none' }">
+    <!--<rect width="64" height="64" x="0" y="0" fill="blue"></rect>
+    <ellipse rx="10" ry="5" cx="15" cy="15" fill="steelblue"></ellipse>
+    <ellipse rx="4" ry="3" cx="17" cy="14" fill="skyblue"></ellipse>
+    <ellipse rx="15" ry="10" cx="40" cy="40" fill="steelblue"></ellipse>
+    <ellipse rx="5" ry="5" cx="45" cy="38" fill="skyblue"></ellipse>
+    <line x1="4" y1="4" x2="14" y2="4" stroke-width="2" stroke="navy"/>
+    <line x1="29" y1="39" x2="44" y2="39" stroke-width="2" stroke="navy"/>
+    <line x1="17" y1="12" x2="28" y2="12" stroke-width="2" stroke="navy"/>
+    <line x1="37" y1="61" x2="60" y2="61" stroke-width="2" stroke="navy"/>
+    <line x1="8" y1="33" x2="24" y2="33" stroke-width="2" stroke="navy"/>
+    <line x1="10" y1="10" x2="20" y2="10" stroke-width="2" stroke="aqua"/>
+    <line x1="20" y1="50" x2="55" y2="50" stroke-width="2" stroke="aqua"/>
+    <line x1="20" y1="40" x2="25" y2="40" stroke-width="2" stroke="aqua"/>
+    <line x1="40" y1="30" x2="15" y2="30" stroke-width="2" stroke="aqua"/>
+    <line x1="50" y1="20" x2="25" y2="20" stroke-width="2" stroke="aqua"/>
+    <line x1="55" y1="15" x2="60" y2="15" stroke-width="2" stroke="aqua"/>
+    <line x1="45" y1="25" x2="55" y2="25" stroke-width="2" stroke="aqua"/>
+    <line x1="35" y1="35" x2="50" y2="35" stroke-width="2" stroke="aqua"/>
+    <line x1="5" y1="45" x2="10" y2="45" stroke-width="2" stroke="aqua"/>
+    <line x1="15" y1="55" x2="35" y2="55" stroke-width="2" stroke="aqua"/>-->
+
+    <path fill="none" stroke="blue" stroke-width="4" stroke-linecap="square" d="M 0  8 Q 8  0 16  8 Q 24 16 32  8 Q 40  0 48  8 Q 54 16 64  8 "></path>
+    <path fill="none" stroke="blue" stroke-width="4" stroke-linecap="square" d="M 0 24 Q 8 16 16 24 Q 24 32 32 24 Q 40 16 48 24 Q 54 32 64 24 "></path>
+    <path fill="none" stroke="blue" stroke-width="4" stroke-linecap="square" d="M 0 40 Q 8 32 16 40 Q 24 48 32 40 Q 40 32 48 40 Q 54 48 64 40 "></path>
+    <path fill="none" stroke="blue" stroke-width="4" stroke-linecap="square" d="M 0 56 Q 8 48 16 56 Q 24 64 32 56 Q 40 48 48 56 Q 54 64 64 56 "></path>
+
+  </g>
+</svg>

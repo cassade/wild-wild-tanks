@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <defs>
+    <linearGradient id="track" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(100,100,100);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tower" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!--<g id="layer1" ng-style="{ display: o.frames[0] ? 'inline' : 'none' }" transform="rotate({{o.direction}} 32 32)">
+    <circle r="10" cx="11" cy="53" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="11" cy="33" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="11" cy="13" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="53" cy="53" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="53" cy="33" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="53" cy="13" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+  </g>-->
+  <g id="layer2" ng-style="{ display: o.frames[1] ? 'inline' : 'none' }" transform="rotate({{o.direction}} 32 32)">
+    <ellipse rx="10" ry="5" cx="11" cy="58" fill="url(#track)" stroke="black" stroke-width="2"></ellipse>
+    <circle r="10" cx="11" cy="43" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="11" cy="23" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <ellipse rx="10" ry="5" cx="11" cy="8" fill="url(#track)" stroke="black" stroke-width="2"></ellipse>
+    <ellipse rx="10" ry="5" cx="53" cy="58" fill="url(#track)" stroke="black" stroke-width="2"></ellipse>
+    <circle r="10" cx="53" cy="43" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <circle r="10" cx="53" cy="23" fill="url(#track)" stroke="black" stroke-width="2"></circle>
+    <ellipse rx="10" ry="5" cx="53" cy="8" fill="url(#track)" stroke="black" stroke-width="2"></ellipse>
+  </g>
+  <g id="layer3" ng-style="{ display: o.frames[2] ? 'inline' : 'none' }" transform="rotate({{o.direction}} 32 32)">
+    <rect width="32" height="28" ry="4" x="16" y="30" fill="url(#tower)" stroke="black" stroke-width="2"></rect>
+    <circle r="10" cx="32" cy="36" fill="url(#tower)" stroke="black" stroke-width="2"></circle>
+    <rect width="4" height="9" x="30" y="17" fill="url(#tower)" stroke="black" stroke-width="2"></rect>
+    <rect width="16" height="16" ry="6" x="24" y="1" fill="url(#tower)" stroke="black" stroke-width="2"></rect>
+  </g>
+</svg>

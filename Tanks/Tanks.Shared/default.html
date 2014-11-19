@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html ng-csp ng-app="tanks">
+<head>
+    <meta charset="utf-8" />
+    <title>Tanks</title>
+
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+
+    <script src="WinJS/js/base.min.js"></script>
+    <script src="WinJS/js/ui.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-animate.min.js"></script>
+    <script src="scripts/angular-ui-router.min.js"></script>
+    <script src="scripts/angular-winjs.js"></script>
+    <script src="default.js"></script>
+    <script src="animations/enterContent.js"></script>
+    <script src="animations/fadeIn.js"></script>
+    <script src="controllers/home.js"></script>
+    <script src="controllers/game.js"></script>
+</head>
+<body>
+    <div id="contenthost" class="fade-in-animation" ui-view></div>
+</body>
+</html>
