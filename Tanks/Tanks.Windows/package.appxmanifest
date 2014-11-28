@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="32638plotyan.WildWildTanks" Version="1.1.0.0" Publisher="CN=2B13E37B-94D0-4AD1-B33A-36FCADA4668E" />
+  <Identity Name="32638plotyan.WildWildTanks" Version="1.2.0.0" Publisher="CN=2B13E37B-94D0-4AD1-B33A-36FCADA4668E" />
   <Properties>
     <DisplayName>Wild Wild Tanks</DisplayName>
     <PublisherDisplayName>plotyan</PublisherDisplayName>

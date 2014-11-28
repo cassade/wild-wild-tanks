@@ -13,6 +13,8 @@
     <Content Include="$(MSBuildThisFileDirectory)css\default.css" />
     <Content Include="$(MSBuildThisFileDirectory)default.html" />
     <Content Include="$(MSBuildThisFileDirectory)default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)directives\pointerup.js" />
+    <Content Include="$(MSBuildThisFileDirectory)directives\pointerdown.js" />
     <Content Include="$(MSBuildThisFileDirectory)images\background.png" />
     <Content Include="$(MSBuildThisFileDirectory)resources\images\bricks0.png" />
     <Content Include="$(MSBuildThisFileDirectory)resources\images\enemy0.png" />

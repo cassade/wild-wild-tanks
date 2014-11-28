@@ -6,10 +6,10 @@
             <button class="button" id="game-button-break" ng-click="break()">&#xE112;</button>
             <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-pause" ng-click="pause()" ng-disabled="isPaused">&#xE103;</button>
             <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-start" ng-click="start()" ng-disabled="isPaused == false">&#xE102;</button>
-            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-up" ng-mousedown="onKeyUpDown({ keyCode: 38, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 38, type: 'keyup' })">&#xE110;</button>
-            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-right" ng-mousedown="onKeyUpDown({ keyCode: 39, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 39, type: 'keyup' })">&#xE111;</button>
-            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-down" ng-mousedown="onKeyUpDown({ keyCode: 40, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 40, type: 'keyup' })" style="transform:scaleY(-1);">&#xE110;</button>
-            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-left" ng-mousedown="onKeyUpDown({ keyCode: 37, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 37, type: 'keyup' })">&#xE112;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-up" pointerdown="onKeyUpDown({ keyCode: 38, type: 'keydown' })" pointerup="onKeyUpDown({ keyCode: 38, type: 'keyup' })">&#xE110;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-right" pointerdown="onKeyUpDown({ keyCode: 39, type: 'keydown' })" pointerup="onKeyUpDown({ keyCode: 39, type: 'keyup' })">&#xE111;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-down" pointerdown="onKeyUpDown({ keyCode: 40, type: 'keydown' })" pointerup="onKeyUpDown({ keyCode: 40, type: 'keyup' })" style="transform:scaleY(-1);">&#xE110;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-left" pointerdown="onKeyUpDown({ keyCode: 37, type: 'keydown' })" pointerup="onKeyUpDown({ keyCode: 37, type: 'keyup' })">&#xE112;</button>
         </aside>
 
         <canvas id="game-canvas" width="768" height="768" ng-click="onMouseDown($event)"></canvas>
@@ -28,7 +28,7 @@
             <img ng-show="game.state == GAME_CONSTRUCTING" id="game-image-enemy" src="/resources/images/enemy0.png" />
             <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-removeEnemy" ng-click="game.removeEnemy()" ng-disabled="getEnemies().length == 0">&#xE108;</button>
             <button class="button" ng-show="game.state == GAME_CONSTRUCTING" id="game-button-save" ng-click="save()" ng-disabled="getEnemies().length == 0">&#xE105;</button>
-            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-fire" ng-mousedown="onKeyUpDown({ keyCode: 32, type: 'keydown' })" ng-mouseup="onKeyUpDown({ keyCode: 32, type: 'keyup' })">&#xE18A;</button>
+            <button class="button" ng-show="game.state != GAME_CONSTRUCTING" id="game-button-fire" pointerdown="onKeyUpDown({ keyCode: 32, type: 'keydown' })" pointerup="onKeyUpDown({ keyCode: 32, type: 'keyup' })">&#xE18A;</button>
         </aside>
 
     </div>
